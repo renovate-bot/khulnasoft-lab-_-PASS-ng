@@ -437,7 +437,7 @@ jobs:
         prerelease: false
         
     - id: upload_release_assets
-      uses: dwenegar/upload-release-assets@v1
+      uses: dwenegar/upload-release-assets@v3
       with:
         release_id: ${{ steps.create_release.outputs.id }}
         assets_path: .
