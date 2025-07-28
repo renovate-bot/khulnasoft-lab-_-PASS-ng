@@ -39,7 +39,7 @@ jobs:
        
       # Setup NuGet
       - name: Setup NuGet.exe
-        uses: nuget/setup-nuget@v1  
+        uses: nuget/setup-nuget@v2  
         
       # Restore the packages for testing
       - name: Restore the application       
